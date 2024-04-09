@@ -37,7 +37,3 @@ We've put together some helpful guides for you to get setup with our product qui
 {% content-ref url="fundamentals/getting-set-up/contributors.md" %}
 [contributors.md](fundamentals/getting-set-up/contributors.md)
 {% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
