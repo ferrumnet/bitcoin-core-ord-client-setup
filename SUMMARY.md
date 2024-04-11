@@ -9,8 +9,9 @@
 
 ## Fundamentals
 
-* [🛠️ Getting set up](fundamentals/getting-set-up/README.md)
-  * [📝 Contributors](fundamentals/getting-set-up/contributors.md)
+* [🛠️ Run a Bitcoin Node in three easy steps](fundamentals/run-a-bitcoin-node-in-three-easy-steps/README.md)
+  * [Setup Ord Client on Mac](fundamentals/run-a-bitcoin-node-in-three-easy-steps/setup-ord-client-on-mac.md)
+  * [📝 Contributors](fundamentals/run-a-bitcoin-node-in-three-easy-steps/contributors.md)
 
 ## Resources
 
