@@ -4,7 +4,7 @@ description: >-
   community and trevor.btc and many other collaborators.
 ---
 
-# 👋 Welcome to Bitcoin Core Setup Tutorial
+# 👋 Welcome to Bitcoin Core and Ord Setup Tutorial
 
 {% hint style="warning" %}
 Windows users, this tutorial is designed for Mac users. Windows user's should check out [AlexaGawddess'](https://twitter.com/AlexaGawddess) tutorial [here](https://alexas-nerdy-shit.gitbook.io/bitcoin-core-ord-client-setup-on-windows). Also linked below. Mac users, read on.&#x20;
@@ -16,6 +16,10 @@ Windows users, this tutorial is designed for Mac users. Windows user's should ch
 
 {% content-ref url="fundamentals/run-a-bitcoin-node-in-three-easy-steps.md" %}
 [run-a-bitcoin-node-in-three-easy-steps.md](fundamentals/run-a-bitcoin-node-in-three-easy-steps.md)
+{% endcontent-ref %}
+
+{% content-ref url="fundamentals/setup-ord-client-on-mac.md" %}
+[setup-ord-client-on-mac.md](fundamentals/setup-ord-client-on-mac.md)
 {% endcontent-ref %}
 
 ## Overview
@@ -38,6 +42,6 @@ In this document we'll get you up to speed on how to run a Bitcoin Full node. Th
 [run-a-bitcoin-node-in-three-easy-steps.md](fundamentals/run-a-bitcoin-node-in-three-easy-steps.md)
 {% endcontent-ref %}
 
-{% content-ref url="fundamentals/contributors.md" %}
-[contributors.md](fundamentals/contributors.md)
+{% content-ref url="fundamentals/setup-ord-client-on-mac.md" %}
+[setup-ord-client-on-mac.md](fundamentals/setup-ord-client-on-mac.md)
 {% endcontent-ref %}

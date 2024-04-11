@@ -1,6 +1,6 @@
 # Table of contents
 
-* [👋 Welcome to Bitcoin Core Setup Tutorial](README.md)
+* [👋 Welcome to Bitcoin Core and Ord Setup Tutorial](README.md)
 
 ## Overview
 
