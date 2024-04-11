@@ -1,4 +1,4 @@
-# Setup Ord Client on Mac
+# ⚙️ Setup Ord Client on Mac
 
 ## Prerequisite
 
@@ -6,8 +6,8 @@ Make sure you setup your Bitcoin Node and it has finished syncing before you set
 
 If you haven't completed the prerequisite, use the following link to complete those steps first.&#x20;
 
-{% content-ref url="./" %}
-[.](./)
+{% content-ref url="run-a-bitcoin-node-in-three-easy-steps.md" %}
+[run-a-bitcoin-node-in-three-easy-steps.md](run-a-bitcoin-node-in-three-easy-steps.md)
 {% endcontent-ref %}
 
 ## Ord Setup (Mac)

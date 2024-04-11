@@ -14,8 +14,8 @@ Windows users, this tutorial is designed for Mac users. Windows user's should ch
 
 ## Skip Overview and go straight to setup for Mac
 
-{% content-ref url="fundamentals/run-a-bitcoin-node-in-three-easy-steps/" %}
-[run-a-bitcoin-node-in-three-easy-steps](fundamentals/run-a-bitcoin-node-in-three-easy-steps/)
+{% content-ref url="fundamentals/run-a-bitcoin-node-in-three-easy-steps.md" %}
+[run-a-bitcoin-node-in-three-easy-steps.md](fundamentals/run-a-bitcoin-node-in-three-easy-steps.md)
 {% endcontent-ref %}
 
 ## Overview
@@ -34,10 +34,10 @@ In this document we'll get you up to speed on how to run a Bitcoin Full node. Th
 
 ## Get Started
 
-{% content-ref url="fundamentals/run-a-bitcoin-node-in-three-easy-steps/" %}
-[run-a-bitcoin-node-in-three-easy-steps](fundamentals/run-a-bitcoin-node-in-three-easy-steps/)
+{% content-ref url="fundamentals/run-a-bitcoin-node-in-three-easy-steps.md" %}
+[run-a-bitcoin-node-in-three-easy-steps.md](fundamentals/run-a-bitcoin-node-in-three-easy-steps.md)
 {% endcontent-ref %}
 
-{% content-ref url="fundamentals/run-a-bitcoin-node-in-three-easy-steps/contributors.md" %}
-[contributors.md](fundamentals/run-a-bitcoin-node-in-three-easy-steps/contributors.md)
+{% content-ref url="fundamentals/contributors.md" %}
+[contributors.md](fundamentals/contributors.md)
 {% endcontent-ref %}
