@@ -42,7 +42,12 @@ Make sure your SSD is formatted correctly. On Macs, it is recommended to use `AP
 
 
     <figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
-6. Click Erase, once complete you can move on to the next step
+6. Click Erase, once complete you can proceed to the next step
+7.  Now let's create a Bitcoin folder in your SSD. To do this, open Finder, Go to your SSD, and create a new folder named `Bitcoin` as shown in the screen shot below.\
+
+
+    <figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+8. Woohoo! Time for Pizza! You have stup your SSD! Now proceed to the next section to download Bitcoin Core (QT) application and get the sync setup.
 
 <figure><img src="../.gitbook/assets/pizza.gif" alt=""><figcaption></figcaption></figure>
 
@@ -92,7 +97,7 @@ Now that you have installed Bitcoin Core it's time to run it. Before we run it a
 3.  You will see a pop-up as shown below, here select `Use a custom data directory`, then navigate to and select your External SSD drive as shown in the image below\
 
 
-    <figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 4. Once you click `OK` your node should start to sync. However, at this point we want to stop it briefly. So wait about a minute, then quit the Bitcoin Core application by pressing `CMD+Q`&#x20;
 5.  After the Bitcoin Core application is closed, you can navigate to your External SSD and you will see a bunch of new files and folders (directories) in here. Note, you won't have the bitcoin.conf file yet (see next step)\
 
