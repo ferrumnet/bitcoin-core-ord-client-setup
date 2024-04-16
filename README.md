@@ -34,7 +34,9 @@ If you are interested in the advanced guide, youc an check out the guide provide
 
 ### General Guide
 
-1. The story of Bitcoin, why Runes matter, why you need to run a node?
+1. The story of Bitcoin, why Runes matter, why you need to run a node? (coming soon)
+2. UTXO management (coming soon)
+3. Identifying Runes to mine, etch etc (coming soon)
 
 
 
