@@ -97,9 +97,10 @@ Before you can download the bitcoin core client, you need to identify which type
 1. Go to [https://bitcoincore.org/en/download/](https://bitcoincore.org/en/download/)
 2.  For Intel chips download `macOS (x86_64)` version and for M series (M1, M2, M3, etc) chips download `macOS (arm64)` version as shown in the image below\
     \
-    **Important:** Make sure to click the `zip` :white\_check\_mark: download link not the `tar.gz` :x: download link
+    **Important:** Make sure to click the `zip` :white\_check\_mark: download link not the `tar.gz` :x: download link\
 
-    <figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+    <figure><img src="../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
 3. Once the download is completed, you will see the `zip` file in your downloads folder
 4.  You can open this file by double clicking. When you double click, you will see a `Bitcoin Core` application icon appear in the downloads folder as shown in the screenshot. \
 
