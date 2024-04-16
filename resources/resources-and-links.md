@@ -1,6 +1,6 @@
 # 🗃️ Resources and links
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Shoutout to [AlexaGawddess](https://twitter.com/AlexaGawddess) for providing inspiration on the structure of this page
 {% endhint %}
 
