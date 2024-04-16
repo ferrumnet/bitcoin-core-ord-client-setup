@@ -29,26 +29,26 @@ Make sure your SSD is formatted correctly. On Macs, it is recommended to use `AP
 3.  If needed, update view to show all devices as shown in the screenshot below\
 
 
-    <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 4.  Right click on your SSD and click Erase\
 
 
-    <figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
     \
     **Important:** Make sure you format the External SSD and not the internal Macintosh HD\
 
-5.  From the popup choose Format dropdown and select `APFS`, or if `APFS` is not available, then select `Mac OS Extended (Journaled)`\
+5.  From the popup choose Format dropdown and select `APFS`, or if `APFS` is not available, then select `Mac OS Extended (Journaled)` \
 
 
-    <figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-6. Enter "Bitcoin" in the name field
+    <figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+6. Enter `Bitcoin` in the name field
 7. Click Erase, once complete you can proceed to the next step
 8. Now press `cmd+space` on your keyboard, this will open a search bar (spotlight search)
 9.  Type `terminal` and open the terminal app as shown below\
 
 
-    <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 10. Now copy and paste the following command, then press enter
 
 {% code overflow="wrap" %}
@@ -61,7 +61,7 @@ mkdir /Volumes/Bitcoin/Bitcoin & echo -e "# Pizza Ninjas Bitcoin Ord Runes Confi
 12. (Optional) You can check that this the folder and file mentioned in the previous step have been created properly by opening your SSD and checking to see that there is now a "Bitcoin" folder and within that folder is a "bitcoin.conf" file. \
 
 
-    <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 13. (Optional) You can check that your bitcoin.conf file is created correctly by typing this command in terminal
 
 ```bash
@@ -71,7 +71,7 @@ cat /Volumes/Bitcoin/Bitcoin/bitcoin.conf
 14. This should output a result as shown below\
 
 
-    <figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 15. Woohoo! Time for Pizza! You have setup your SSD! Now proceed to the next section to download Bitcoin Core (QT) application and get the sync setup.
 
 <figure><img src="../.gitbook/assets/pizza.gif" alt=""><figcaption></figcaption></figure>
@@ -86,7 +86,7 @@ Before you can download the bitcoin core client, you need to identify which type
 2. Click About This Mac
 3. A window will pop up with information about your computer as shown below\
    \
-   ![](<../.gitbook/assets/image (2) (1) (1).png>)
+   ![](<../.gitbook/assets/image (2) (1).png>)
 4. Note down if you have any of the M series chips (M1, M2, M3, etc) or an Intel chip
 
 ### Download Bitcoin Core client for your chip type
@@ -96,16 +96,16 @@ Before you can download the bitcoin core client, you need to identify which type
     \
     **Important:** Make sure to click the `zip` :white\_check\_mark: download link not the `tar.gz` :x: download link
 
-    <figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 3. Once the download is completed, you will see the `zip` file in your downloads folder
 4.  You can open this file by double clicking. When you double click, you will see a `Bitcoin Core` application icon appear in the downloads folder as shown in the screenshot. \
 
 
-    <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 5.  Drag the `Bitcoin Core` file into "Applications" folder as shown in the screenshot\
 
 
-    <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 6.  Now you have installed the Bitcoin Core, before you run it, we'll go over config items in the next section :rocket:\
 
 
@@ -120,21 +120,21 @@ Now that you have installed Bitcoin Core it's time to run it. Follow these steps
 3.  When you open the Bitcoin Core app for the first time, you may see a pop up like the one shown below. In case you see this, then click Open on the pop up to proceed as shown below\
 
 
-    <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 4.  You will see a pop-up as shown below, here select `Use a custom data directory`, then navigate to and select your External SSD drive as shown in the image below\
 
 
-    <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 5. Once you click `OK` your node should start to sync.&#x20;
 6.  At this point you should see a window similar to the one shown below:\
 
 
-    <figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 7. Initially you won't see a value for "Estimated time left until synced". It takes a few minutes, sometimes longer for this field to show a value. After some time, the application will show you how long it will take to sync.&#x20;
 8.  You need to keep your computer on during the initial sync. There is a free app called [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12), download the app, click through it's initial prompts and then set it to run "Indefinitely" while the node is syncing.\
 
 
-    <figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 9. The sync can take some time, initially it will have no time estimate, then it will inflate to weeks, after 30 minutes to an hour it comes down to a generally accurate estimate ranging between 30 hours to 3-4 days depending on your Mac performance and internet performance. Don't be surprised if the time fluctuates up and down this is normal.
 10. Have patience, have some pizza, read the next guide to [setup Ord Client](https://mattonchain.github.io/notes-on-a-chain/ord-setup.html) in the mean time, or read [Ordinals](https://docs.ordinals.com/introduction.html) and [Runes Guide](https://docs.ordinals.com/runes.html) Book, learn about [UTXO management](https://x.com/tahaabbasi/status/1778231378410397711), and engage with the [Pizza Ninja community in Discord](https://discord.gg/ninjalerts).\
     \
@@ -144,7 +144,7 @@ Now that you have installed Bitcoin Core it's time to run it. Follow these steps
 11. Once the node is synced you will see the following window, do not create a wallet here.\
 
 
-    <figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 
 12. The next step is setting up the ord client. I am linking to a recent guide here, and will be updating with specific feedback over the next few days.

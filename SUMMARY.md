@@ -15,5 +15,6 @@
 
 ## Resources
 
+* [⁉️ FAQs](resources/faqs.md)
 * [🎨 Pizza Ninja Collection](resources/pizza-ninja-collection.md)
 * [🖥️ Discord](resources/discord.md)
