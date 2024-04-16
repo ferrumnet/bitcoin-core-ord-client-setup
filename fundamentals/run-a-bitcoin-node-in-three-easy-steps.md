@@ -29,7 +29,7 @@ Make sure your SSD is formatted correctly. On Macs, it is recommended to use `AP
 3.  If needed, update view to show all devices as shown in the screenshot below\
 
 
-    <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 4.  Right click on your SSD and click Erase\
 
 
@@ -89,7 +89,7 @@ Before you can download the bitcoin core client, you need to identify which type
 2. Click About This Mac
 3. A window will pop up with information about your computer as shown below\
    \
-   ![](<../.gitbook/assets/image (2) (1).png>)
+   ![](<../.gitbook/assets/image (2) (1) (1).png>)
 4. Note down if you have any of the M series chips (M1, M2, M3, etc) or an Intel chip
 
 ### Download Bitcoin Core client for your chip type
@@ -99,7 +99,7 @@ Before you can download the bitcoin core client, you need to identify which type
     \
     **Important:** Make sure to click the `zip` :white\_check\_mark: download link not the `tar.gz` :x: download link
 
-    <figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 3. Once the download is completed, you will see the `zip` file in your downloads folder
 4.  You can open this file by double clicking. When you double click, you will see a `Bitcoin Core` application icon appear in the downloads folder as shown in the screenshot. \
 

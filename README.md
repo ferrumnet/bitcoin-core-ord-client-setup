@@ -31,7 +31,7 @@ If you are interested in the advanced guide, youc an check out the guide provide
 ### Technical Guide
 
 1. How to setup a bitcoin node ([Run a Bitcoin Node in three easy core steps](fundamentals/run-a-bitcoin-node-in-three-easy-steps.md))
-2. Install required tools, Homebrew, Oh My Zsh, Visual Studio Code, Rust ([Get the Pizza Ingredients](fundamentals/install-required-tools-homebrew-oh-my-zsh-visual-studio-rust.md))
+2. Install required tools, Homebrew, Oh My Zsh, Visual Studio Code, Rust ([Get the Pizza Ingredients](fundamentals/install-required-tools-homebrew-oh-my-zsh-visual-studio-rust-transmission.md))
 3. How to setup Ord Client on Mac ([Setup Ord Client on Mac](fundamentals/setup-ord-client-on-mac.md))
 4. How to setup Bitcoin Node and Ord on Signet (testnet)
 5. How to start inscribing runes on testnet
@@ -62,8 +62,8 @@ In this document we'll get you up to speed on how to run a Bitcoin Full node. Th
 [run-a-bitcoin-node-in-three-easy-steps.md](fundamentals/run-a-bitcoin-node-in-three-easy-steps.md)
 {% endcontent-ref %}
 
-{% content-ref url="fundamentals/install-required-tools-homebrew-oh-my-zsh-visual-studio-rust.md" %}
-[install-required-tools-homebrew-oh-my-zsh-visual-studio-rust.md](fundamentals/install-required-tools-homebrew-oh-my-zsh-visual-studio-rust.md)
+{% content-ref url="fundamentals/install-required-tools-homebrew-oh-my-zsh-visual-studio-rust-transmission.md" %}
+[install-required-tools-homebrew-oh-my-zsh-visual-studio-rust-transmission.md](fundamentals/install-required-tools-homebrew-oh-my-zsh-visual-studio-rust-transmission.md)
 {% endcontent-ref %}
 
 {% content-ref url="fundamentals/setup-ord-client-on-mac.md" %}
