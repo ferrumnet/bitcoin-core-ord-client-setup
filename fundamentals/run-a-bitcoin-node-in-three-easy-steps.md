@@ -1,4 +1,4 @@
-# 🛠️ Run a Bitcoin Node in three easy steps
+# 🔁 Run a Bitcoin Node in three easy steps
 
 Make sure you have a capable machine as desribed in [System requirements](../overview/system-requirements.md) section.
 

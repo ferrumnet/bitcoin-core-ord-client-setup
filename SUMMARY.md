@@ -9,7 +9,8 @@
 
 ## Fundamentals
 
-* [🛠️ Run a Bitcoin Node in three easy steps](fundamentals/run-a-bitcoin-node-in-three-easy-steps.md)
+* [🔁 Run a Bitcoin Node in three easy steps](fundamentals/run-a-bitcoin-node-in-three-easy-steps.md)
+* [🛠️ Install required tools, Homebrew, Oh My Zsh, Visual Studio, Rust](fundamentals/install-required-tools-homebrew-oh-my-zsh-visual-studio-rust.md)
 * [⚙️ Setup Ord Client on Mac](fundamentals/setup-ord-client-on-mac.md)
 * [📝 Contributors](fundamentals/contributors.md)
 

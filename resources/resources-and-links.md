@@ -20,7 +20,7 @@ Based Discord: [https://discord.gg/bpUJvgpAhp](https://discord.gg/bpUJvgpAhp) Am
 
 Bitcoin Core Download: [https://bitcoincore.org/en/download/](https://bitcoincore.org/en/download/)
 
-Visual Studio: [https://visualstudio.microsoft.com/downloads/](https://visualstudio.microsoft.com/downloads/)
+Visual Studio: [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
 
 Homebrew: [https://brew.sh/](https://brew.sh/)
 

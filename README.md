@@ -27,9 +27,10 @@ If you are interested in the advanced guide, youc an check out the guide provide
 ### Technical Guide
 
 1. How to setup a bitcoin node ([Run a Bitcoin Node in three easy core steps](fundamentals/run-a-bitcoin-node-in-three-easy-steps.md))
-2. How to setup Ord Client on Mac ([Setup Ord Client on Mac](fundamentals/setup-ord-client-on-mac.md))
-3. How to setup Bitcoin Node and Ord on Signet (testnet)
-4. How to start inscribing runes on testnet
+2. Install required tools, Visual Studio, Homebrew, Rust etc
+3. How to setup Ord Client on Mac ([Setup Ord Client on Mac](fundamentals/setup-ord-client-on-mac.md))
+4. How to setup Bitcoin Node and Ord on Signet (testnet)
+5. How to start inscribing runes on testnet
 
 ### General Guide
 
