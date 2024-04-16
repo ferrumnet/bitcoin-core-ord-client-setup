@@ -1,7 +1,5 @@
 # ⚙️ Setup Ord Client on Mac
 
-Updating Do not follow yet. Will be updated in the next hour
-
 ## Prerequisite
 
 Make sure you setup your Bitcoin Node and it has finished syncing before you setup the Ord Client
