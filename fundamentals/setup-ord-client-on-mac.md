@@ -207,6 +207,12 @@ It is highly likely that your directories are not setup in order to work with th
 
 <figure><img src="../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
 
+6. Once indexing completes you will see the bar go away, and terminal should be in a similar state to the screenshot shown below. This means you are ready to [start the Ord server](setup-ord-client-on-mac.md#start-ord-server)! :rocket:
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/pizza.gif" alt=""><figcaption></figcaption></figure>
+
 ## Start Ord Server
 
 {% hint style="warning" %}
@@ -233,7 +239,10 @@ http://localhost
 
 <figure><img src="../.gitbook/assets/image (67).png" alt=""><figcaption></figcaption></figure>
 
-3. Woohoo! You did it! :pizza:You have installed Bitcoin Core, and you have installed and indexed Ord. Both of these setups are working as expected. If you want to stop the Ord server, you need to go to terminal and press `CTRL+C` on your keyboard. Then, you can shutdown `Bitcoin Core (QT)` application.&#x20;
+3.  Woohoo! You did it! :pizza:You have installed Bitcoin Core, and you have installed and indexed Ord. Both of these setups are working as expected. If you want to stop the Ord server, you need to go to terminal and press `CTRL+C` on your keyboard. Then, you can shutdown `Bitcoin Core (QT)` application.\
+
+
+    <figure><img src="../.gitbook/assets/pizza.gif" alt=""><figcaption></figcaption></figure>
 
 ## X account follow and shoutout
 

@@ -154,11 +154,11 @@ brew install rust
 1. Go to [https://transmissionbt.com/download](https://transmissionbt.com/download)
 2. Download Transmission, we will use this to download a pre-built Ord index to save time
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 3. A Transmission dmg file will be added to your downloads folder
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 4.  This will open a pop up window. You need to take a few steps here as shown in the image below\
 
