@@ -12,6 +12,7 @@ We are going to install a few tools to make your Bitcoin Node running experience
 2. [Oh My Zsh - A great tool to add privacy and make managing your terminal easy](install-required-tools-homebrew-oh-my-zsh-visual-studio-rust-transmission.md#install-oh-my-zsh)
 3. [Visual Studio - Will make your life easy when interacting with any scripts we make](install-required-tools-homebrew-oh-my-zsh-visual-studio-rust-transmission.md#install-visual-studio-code)
 4. [Rust - We need this for Ord setup, and other future activities](install-required-tools-homebrew-oh-my-zsh-visual-studio-rust-transmission.md#installing-rust)
+5. [Transmission - To help us get pre-built Ord Indexes](install-required-tools-homebrew-oh-my-zsh-visual-studio-rust-transmission.md#install-transmission)
 
 Let's get to it.&#x20;
 
