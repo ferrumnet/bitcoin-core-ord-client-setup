@@ -12,7 +12,11 @@ Windows users, this tutorial is designed for Mac users. Windows user's should ch
 
 {% embed url="https://alexas-nerdy-shit.gitbook.io/bitcoin-core-ord-client-setup-on-windows" %}
 
-## Important Note - Choose your guide style
+{% hint style="warning" %}
+**Important Note:** Please read this page to the end to learn about some important udpates. To get started with your setup go to the [Get Started](./#get-started) section of this page at the end.&#x20;
+{% endhint %}
+
+## Choose your guide style
 
 I highly advise you to use the Ninja Mac Guide (this one) or the [Ninja Windows Guide by Alexa](https://guide.ordinalshelp.com/bitcoin-core-ord-client-setup-on-windows) and not mix the directions in here with other guides.&#x20;
 
@@ -38,18 +42,6 @@ If you are interested in the advanced guide, youc an check out the guide provide
 2. UTXO management (coming soon)
 3. Identifying Runes to mine, etch etc (coming soon)
 
-
-
-## Skip Overview and go straight to setup for Mac
-
-{% content-ref url="fundamentals/run-a-bitcoin-node-in-three-easy-steps.md" %}
-[run-a-bitcoin-node-in-three-easy-steps.md](fundamentals/run-a-bitcoin-node-in-three-easy-steps.md)
-{% endcontent-ref %}
-
-{% content-ref url="fundamentals/setup-ord-client-on-mac.md" %}
-[setup-ord-client-on-mac.md](fundamentals/setup-ord-client-on-mac.md)
-{% endcontent-ref %}
-
 ## Overview
 
 In this document we'll get you up to speed on how to run a Bitcoin Full node. The overview page provide quick links for reference information such as system requirements etc. You can follow the document in order by reading each page and then clicking next page at the end of current page.&#x20;
@@ -70,6 +62,22 @@ In this document we'll get you up to speed on how to run a Bitcoin Full node. Th
 [run-a-bitcoin-node-in-three-easy-steps.md](fundamentals/run-a-bitcoin-node-in-three-easy-steps.md)
 {% endcontent-ref %}
 
+{% content-ref url="fundamentals/install-required-tools-homebrew-oh-my-zsh-visual-studio-rust.md" %}
+[install-required-tools-homebrew-oh-my-zsh-visual-studio-rust.md](fundamentals/install-required-tools-homebrew-oh-my-zsh-visual-studio-rust.md)
+{% endcontent-ref %}
+
 {% content-ref url="fundamentals/setup-ord-client-on-mac.md" %}
 [setup-ord-client-on-mac.md](fundamentals/setup-ord-client-on-mac.md)
+{% endcontent-ref %}
+
+{% content-ref url="resources/faqs.md" %}
+[faqs.md](resources/faqs.md)
+{% endcontent-ref %}
+
+{% content-ref url="resources/resources-and-links.md" %}
+[resources-and-links.md](resources/resources-and-links.md)
+{% endcontent-ref %}
+
+{% content-ref url="resources/donation-and-x-shout-out.md" %}
+[donation-and-x-shout-out.md](resources/donation-and-x-shout-out.md)
 {% endcontent-ref %}
