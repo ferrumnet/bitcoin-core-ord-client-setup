@@ -154,7 +154,7 @@ Now that you have installed Bitcoin Core it's time to run it. Follow these steps
 
 ## X account follow and shoutout
 
-If the guide helped you, please consider [following me on X](https://twitter.com/tahaabbasi) [(@tahaabbasi](https://twitter.com/tahaabbasi)) and giving a shoutout to the mac guide created here.&#x20;
+If the guide helped you, please consider [following me on X](https://twitter.com/tahaabbasi) [(@tahaabbasi](https://twitter.com/tahaabbasi)) and giving a shoutout to the mac guide created here. Maybe give a :pizza:in the Ninja Discord using `/pizza user:@officialtahaabbasi reason: anything you'd like to add here`. Thanks for your support!
 
 {% content-ref url="../resources/donation-and-x-shout-out.md" %}
 [donation-and-x-shout-out.md](../resources/donation-and-x-shout-out.md)

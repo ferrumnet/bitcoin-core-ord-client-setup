@@ -167,3 +167,7 @@ brew install rust
 
 
 5. Woohoo! You've got Transmission setup too! That's it for now, you will use Transmission while setting up the Ord Client. Next step is to [setup the Ord Client](setup-ord-client-on-mac.md).
+
+## X account follow and shoutout
+
+If the guide helped you, please consider [following me on X](https://twitter.com/tahaabbasi) [(@tahaabbasi](https://twitter.com/tahaabbasi)) and giving a shoutout to the mac guide created here. Maybe give a :pizza:in the Ninja Discord using `/pizza user:@officialtahaabbasi reason: anything you'd like to add here`. Thanks for your support!
