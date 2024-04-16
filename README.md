@@ -12,6 +12,31 @@ Windows users, this tutorial is designed for Mac users. Windows user's should ch
 
 {% embed url="https://alexas-nerdy-shit.gitbook.io/bitcoin-core-ord-client-setup-on-windows" %}
 
+## Important Note - Choose your guide style
+
+I highly advise you to use the Ninja Mac Guide (this one) or the [Ninja Windows Guide by Alexa](https://guide.ordinalshelp.com/bitcoin-core-ord-client-setup-on-windows) and not mix the directions in here with other guides.&#x20;
+
+This guide, the Ninja Mac Guide is designed for all users, beginner and advanced, includes detailed screenshots and a video guide. It will be supported by myself, and additional devs. This guide uses user interface (application view) to get you started, and then teaches you how to use terminal one step at a time.&#x20;
+
+We have a vibrant community and our amazing contributors have provided additional guides with cool benefits. Some guides are designed for advanced users who are familiar with terminal, command line tools, and tools such as oh my zsh, brew etc.&#x20;
+
+If you are interested in the advanced guide, youc an check out the guide provided by Brandon Marshal, mattonchain or others. When you use these guides, you will need to manage your own paths.&#x20;
+
+## What is included in the guide
+
+### Technical Guide
+
+1. How to setup a bitcoin node ([Run a Bitcoin Node in three easy core steps](fundamentals/run-a-bitcoin-node-in-three-easy-steps.md))
+2. How to setup Ord Client on Mac ([Setup Ord Client on Mac](fundamentals/setup-ord-client-on-mac.md))
+3. How to setup Bitcoin Node and Ord on Signet (testnet)
+4. How to start inscribing runes on testnet
+
+### General Guide
+
+1. The story of Bitcoin, why Runes matter, why you need to run a node?
+
+
+
 ## Skip Overview and go straight to setup for Mac
 
 {% content-ref url="fundamentals/run-a-bitcoin-node-in-three-easy-steps.md" %}
