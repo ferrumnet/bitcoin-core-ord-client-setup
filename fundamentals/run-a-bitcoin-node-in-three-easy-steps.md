@@ -49,12 +49,12 @@ Make sure your SSD is formatted correctly. On Macs, it is recommended to use `AP
 
 
     <figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
-10. Now copy and paste the following command, then press enter
+10. Now copy and paste the following com
 
 {% code overflow="wrap" %}
 ```bash
 mkdir -p /Volumes/Bitcoin/Bitcoin
-echo -e "# Pizza Ninjas Bitcoin Ord Runes Config File - FAST\ntxindex=1\nassumevalid=000000000000000000025820df002cd81b8bd78e6c64c1791962c8a91b46f54e\nserver=1\nrpcthreads=4\nrpcbind=0.0.0.0" > /Volumes/Bitcoin/Bitcoin/bitcoin.conf
+echo -e "# Pizza Ninjas Bitcoin Ord Runes Config File - FAST\ntxindex=1\nassumevalid=000000000000000000025820df002cd81b8bd78e6c64c1791962c8a91b46f54e\nserver=1" > /Volumes/Bitcoin/Bitcoin/bitcoin.conf
 ```
 {% endcode %}
 
