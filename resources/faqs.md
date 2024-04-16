@@ -56,3 +56,25 @@ To check if your Bitcoin Directory is correct or if you need to update it, see t
 
 ## Update Path of command to build ord index
 
+1. Update SSD name to "Bitcoin" if it is not already named SSD.&#x20;
+2. Connect the SSD External Drive to your Mac
+3. Open `Disk Utility` by searching in spotlight search
+4.  If needed, update view to show all devices as shown in the screenshot below\
+
+
+    <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+5.  Right click on your SSD and click Rename\
+
+
+    <figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+6.  After you click rename, the name field will become editable as shown below. Rename this SSD to `Bitcoin` and then hit enter\
+
+
+    <figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+7. Now you can run the command to index the node
+
+{% code overflow="wrap" %}
+```bash
+ord --index /Volumes/Bitcoin/Ord/index.redb --cookie-file /Volumes/Bitcoin/Bitcoin/.cookie index update
+```
+{% endcode %}
