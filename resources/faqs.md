@@ -1,6 +1,6 @@
 # ⁉️ FAQs
 
-Ord Client cookie file not found or related error
+## Ord Client cookie file not found or related error
 
 If you are facing an error similar to the one shown below:
 
@@ -16,10 +16,10 @@ ord --index /Volumes/Bitcoin/Ord/index.redb --cookie-file /Volumes/Bitcoin/Bitco
 
 Then you may have two issues to resolve.&#x20;
 
-1. Update Bitcoin Directory (If Needed)
-2. Update Path of command to build ord index
+1. [Update Bitcoin Directory (If Needed)](faqs.md#update-bitcoin-directory-if-needed)
+2. [Update SSD name to standardized name so all commands work](faqs.md#update-ssd-name-to-standardized-name-so-all-commands-work)
 
-To check if your Bitcoin Directory is correct or if you need to update it, see the Update Bitcoin Directory (If Needed) first, then return back here and continue from Update Path of command to build ord index
+To check if your Bitcoin Directory is correct or if you need to update it, see the [Update Bitcoin Directory (If Needed) first](faqs.md#update-bitcoin-directory-if-needed), then proceed to [Update SSD name to standardized name so all commands work](faqs.md#update-ssd-name-to-standardized-name-so-all-commands-work).
 
 ## Update Bitcoin Directory (If Needed)
 
