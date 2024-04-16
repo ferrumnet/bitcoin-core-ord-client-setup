@@ -56,7 +56,7 @@ To check if your Bitcoin Directory is correct or if you need to update it, see t
 12. After 30 seconds to a minute, click ok
 13. Bitcoin Core (QT) will now sync with the new directory
 
-## Update Path of command to build ord index
+## Update SSD name to standardized name so all commands work
 
 1. Update SSD name to "Bitcoin" if it is not already named SSD.&#x20;
 2. Connect the SSD External Drive to your Mac
