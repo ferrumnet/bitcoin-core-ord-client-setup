@@ -152,4 +152,10 @@ Now that you have installed Bitcoin Core it's time to run it. Follow these steps
 
 12. The next step is setting up the ord client. I am linking to a recent guide here, and will be updating with specific feedback over the next few days.
 
-{% embed url="https://mattonchain.github.io/notes-on-a-chain/ord-setup.html" %}
+## X account follow and shoutout
+
+If the guide helped you, please consider [following me on X](https://twitter.com/tahaabbasi) [(@tahaabbasi](https://twitter.com/tahaabbasi)) and giving a shoutout to the mac guide created here.&#x20;
+
+{% content-ref url="../resources/donation-and-x-shout-out.md" %}
+[donation-and-x-shout-out.md](../resources/donation-and-x-shout-out.md)
+{% endcontent-ref %}
