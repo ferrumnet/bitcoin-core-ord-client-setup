@@ -1,6 +1,29 @@
-# ⁉️ FAQs
+# ⁉️ FAQs - Common Issues and Resolutions
+
+## Ord Index Error | Code -5 message No such mempool transaction
+
+### The error
+
+{% code overflow="wrap" %}
+```bash
+███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████░ 838792/839401[2024-04-15T23:57:47Z ERROR ord::index::updater] Couldn't receive txs failed to fetch raw transaction: code -5 message No such mempool transaction. Blockchain transactions are still in the process of being indexed. Use gettransaction for wallet transactions.
+```
+{% endcode %}
+
+### The solution
+
+Thanks to [Post Capone](https://twitter.com/p0stc4p0n3) for sharing the solution.&#x20;
+
+To fix this, you need to take the following steps
+
+1. Add `reindex-chainstate=1` to your `bitcoin.conf` file.&#x20;
+2. Open Bitcoin Core and let bitcoin finish the reindex (usually takes an hour or two)
+3. After the reindex is completed you need to remove `reindex-chainstate=1` from your `bitcoin.conf` file
+4. Now you can proceed with the [ord index](../fundamentals/setup-ord-client-on-mac.md#start-indexing-ord)
 
 ## Ord Client cookie file not found or related error
+
+### The error
 
 If you are facing an error similar to the one shown below:
 
@@ -14,12 +37,14 @@ When you typed the command (see below) in step 6 under the [Build the Ord Index]
 ord --index /Volumes/Bitcoin/Ord/index.redb --cookie-file /Volumes/Bitcoin/Bitcoin/.cookie index
 ```
 
+### The solution
+
 Then you may have two issues to resolve.&#x20;
 
-1. [Update Bitcoin Directory (If Needed)](faqs.md#update-bitcoin-directory-if-needed)
-2. [Update SSD name to standardized name so all commands work](faqs.md#update-ssd-name-to-standardized-name-so-all-commands-work)
+1. [Update Bitcoin Directory (If Needed)](faqs-common-issues-and-resolutions.md#update-bitcoin-directory-if-needed)
+2. [Update SSD name to standardized name so all commands work](faqs-common-issues-and-resolutions.md#update-ssd-name-to-standardized-name-so-all-commands-work)
 
-To check if your Bitcoin Directory is correct or if you need to update it, see the [Update Bitcoin Directory (If Needed) first](faqs.md#update-bitcoin-directory-if-needed), then proceed to [Update SSD name to standardized name so all commands work](faqs.md#update-ssd-name-to-standardized-name-so-all-commands-work).
+To check if your Bitcoin Directory is correct or if you need to update it, see the [Update Bitcoin Directory (If Needed) first](faqs-common-issues-and-resolutions.md#update-bitcoin-directory-if-needed), then proceed to [Update SSD name to standardized name so all commands work](faqs-common-issues-and-resolutions.md#update-ssd-name-to-standardized-name-so-all-commands-work). After doing these steps, run the command again and you should be golden. :pizza::ninja:
 
 ## Update Bitcoin Directory (If Needed)
 

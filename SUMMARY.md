@@ -16,6 +16,6 @@
 
 ## Resources
 
-* [⁉️ FAQs](resources/faqs.md)
+* [⁉️ FAQs - Common Issues and Resolutions](resources/faqs-common-issues-and-resolutions.md)
 * [🗃️ Resources and links](resources/resources-and-links.md)
 * [📣 Donation and X shout out](resources/donation-and-x-shout-out.md)

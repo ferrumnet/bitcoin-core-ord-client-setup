@@ -4,7 +4,7 @@ description: >-
   community and trevor.btc and many other collaborators.
 ---
 
-# 👋 Welcome to Bitcoin Core and Ord Setup Tutorial
+# 👋 Welcome to Ninja Mac Guide - Bitcoin Core and Ord Setup Tutorial
 
 {% hint style="warning" %}
 Windows users, this tutorial is designed for Mac users. Windows user's should check out [AlexaGawddess'](https://twitter.com/AlexaGawddess) tutorial [here](https://alexas-nerdy-shit.gitbook.io/bitcoin-core-ord-client-setup-on-windows). Also linked below. Mac users, read on.&#x20;
@@ -70,8 +70,8 @@ In this document we'll get you up to speed on how to run a Bitcoin Full node. Th
 [setup-ord-client-on-mac.md](fundamentals/setup-ord-client-on-mac.md)
 {% endcontent-ref %}
 
-{% content-ref url="resources/faqs.md" %}
-[faqs.md](resources/faqs.md)
+{% content-ref url="resources/faqs-common-issues-and-resolutions.md" %}
+[faqs-common-issues-and-resolutions.md](resources/faqs-common-issues-and-resolutions.md)
 {% endcontent-ref %}
 
 {% content-ref url="resources/resources-and-links.md" %}
