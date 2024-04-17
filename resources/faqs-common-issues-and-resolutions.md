@@ -16,9 +16,9 @@ Thanks to [Post Capone](https://twitter.com/p0stc4p0n3) for sharing the solution
 
 To fix this, you need to take the following steps
 
-1. Add `reindex-chainstate=1` to your `bitcoin.conf` file.&#x20;
+1. Add `reindex=1` to your `bitcoin.conf` file.&#x20;
 2. Open Bitcoin Core and let bitcoin finish the reindex (usually takes an hour or two)
-3. After the reindex is completed you need to remove `reindex-chainstate=1` from your `bitcoin.conf` file
+3. After the reindex is completed you need to remove `reindex=1` from your `bitcoin.conf` file
 4. Now you can proceed with the [ord index](../fundamentals/setup-ord-client-on-mac.md#start-indexing-ord)
 
 ## Ord Client cookie file not found or related error
