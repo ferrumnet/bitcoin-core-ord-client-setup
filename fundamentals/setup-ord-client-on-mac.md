@@ -80,7 +80,7 @@ ord --version
 Make sure you have installed Transmission as per the instructions in the Install Tools section. If not, then click here ([#install-transmission](install-required-tools-homebrew-oh-my-zsh-visual-studio-rust-transmission.md#install-transmission "mention")) to install Transmission first.
 {% endhint %}
 
-Now we will download the pre-built index to save us time. The pre-built Ord index already has a large number of blocks synced, so it willr educe the time needed to sync the remaining blocks. Here are the steps:
+Now we will download the pre-built index to save us time. The pre-built Ord index already has a large number of blocks synced, so it will reduce the time needed to sync the remaining blocks. Here are the steps:
 
 1. Make sure your Transmission App is open, if not, you can open it by right clicking on it and then clicking open in Applications Folder
 

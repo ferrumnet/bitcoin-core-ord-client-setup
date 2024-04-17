@@ -133,7 +133,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 ## Installing Rust
 
-1. Thanks to Homebrew that we installed earlier, installing rust is as entering the following command in terminal
+1. Thanks to Homebrew that we installed earlier, installing rust is as easy as entering the following command in terminal
 
 ```bash
 brew install rust
