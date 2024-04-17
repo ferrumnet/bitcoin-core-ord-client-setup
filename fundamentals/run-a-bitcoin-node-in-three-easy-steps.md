@@ -29,11 +29,11 @@ Make sure your SSD is formatted correctly. On Macs, it is recommended to use `AP
 3.  If needed, update view to show all devices as shown in the screenshot below\
 
 
-    <figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 4.  Right click on your SSD and click Erase\
 
 
-    <figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
     \
     **Important:** Make sure you format the External SSD and not the internal Macintosh HD\
@@ -60,7 +60,7 @@ echo -e "# Pizza Ninjas Bitcoin Ord Runes Config File - FAST\ntxindex=1\nassumev
 
 <figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 11. The above command will create a "Bitcoin" folder in your SSD which is also named "Bitcoin". It will also add the the Pizza Ninja super speed configuration file so your node can run at Ninja speed.
 12. (Optional) You can check that this the folder and file mentioned in the previous step have been created properly by opening your SSD and checking to see that there is now a "Bitcoin" folder and within that folder is a "bitcoin.conf" file. \
@@ -76,7 +76,7 @@ cat /Volumes/Bitcoin/Bitcoin/bitcoin.conf
 14. This should output a result as shown below\
 
 
-    <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 15. Woohoo! Time for Pizza! You have setup your SSD! Now proceed to the next section to download Bitcoin Core (QT) application and get the sync setup.
 
 <figure><img src="../.gitbook/assets/pizza.gif" alt=""><figcaption></figcaption></figure>
@@ -91,7 +91,7 @@ Before you can download the bitcoin core client, you need to identify which type
 2. Click About This Mac
 3. A window will pop up with information about your computer as shown below\
    \
-   ![](<../.gitbook/assets/image (2) (1) (1) (1) (1).png>)
+   ![](<../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png>)
 4. Note down if you have any of the M series chips (M1, M2, M3, etc) or an Intel chip
 
 ### Download Bitcoin Core client for your chip type
@@ -150,7 +150,7 @@ Now that you have installed Bitcoin Core it's time to run it. Follow these steps
 11. Once the node is synced you will see the following window, do not create a wallet here.\
 
 
-    <figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 12. The next step is setting up the Ord client, but before you set that up, you need to setup a few tools. Scroll down and click on the button to go to the next part of the guide. [Install Required Tools](install-required-tools-homebrew-oh-my-zsh-visual-studio-rust-transmission.md).

@@ -221,7 +221,7 @@ It is highly likely that your directories are not setup in order to work with th
 1.  Do not run this command if your Ord client is indexing as shown below\
 
 
-    <figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 2. If you have started Ord server, make sure to [safely quit the server](setup-ord-client-on-mac.md#safely-close-ord-client)
 3. Make sure that Bitcoin Core is not running, you can quit it safely by clicking on the Bitcoin Core (QT) application window and pressing `CMD+Q`.
 4. Then open terminal and run the following command
@@ -235,7 +235,7 @@ open /Volumes/Bitcoin/Ord/
 
 5. This will begin the process of copying the `index.rdb` file to a new file named `index.redb.backup`. The proces can take some time, during it's progress you will see the following screen on terminal
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 5. Wait for this to complete. Once complete, the Ord folder in your SSD will open, and you will see two files, `index.redb` and `index.redb.backup` both with the same size as shown below
 
@@ -243,7 +243,7 @@ open /Volumes/Bitcoin/Ord/
 If you have an index.redb.backup file before from a previous backup, the command will overwrite this file with the backup, this is expected behavior.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/pizza.gif" alt=""><figcaption></figcaption></figure>
 
@@ -289,7 +289,7 @@ These steps must be followed in the order listed below to avoid data corruption.
 
 1. Go to terminal where Ord client is running and press `CTRL+C`&#x20;
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
 DO NOT PRESS `CTRL+C` again when you see the above notice. Wait for it to shut down.

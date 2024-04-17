@@ -90,7 +90,7 @@ To check if your Bitcoin Directory is correct or if you need to update it, see t
 5.  If needed, update view to show all devices as shown in the screenshot below\
 
 
-    <figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 6.  Right click on your SSD and click Rename\
 
 
