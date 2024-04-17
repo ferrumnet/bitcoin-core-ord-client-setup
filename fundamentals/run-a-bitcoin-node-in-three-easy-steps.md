@@ -29,11 +29,11 @@ Make sure your SSD is formatted correctly. On Macs, it is recommended to use `AP
 3.  If needed, update view to show all devices as shown in the screenshot below\
 
 
-    <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 4.  Right click on your SSD and click Erase\
 
 
-    <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
     \
     **Important:** Make sure you format the External SSD and not the internal Macintosh HD\
@@ -74,7 +74,7 @@ cat /Volumes/Bitcoin/Bitcoin/bitcoin.conf
 14. This should output a result as shown below\
 
 
-    <figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 15. Woohoo! Time for Pizza! You have setup your SSD! Now proceed to the next section to download Bitcoin Core (QT) application and get the sync setup.
 
 <figure><img src="../.gitbook/assets/pizza.gif" alt=""><figcaption></figcaption></figure>
@@ -89,7 +89,7 @@ Before you can download the bitcoin core client, you need to identify which type
 2. Click About This Mac
 3. A window will pop up with information about your computer as shown below\
    \
-   ![](<../.gitbook/assets/image (2) (1) (1).png>)
+   ![](<../.gitbook/assets/image (2) (1) (1) (1).png>)
 4. Note down if you have any of the M series chips (M1, M2, M3, etc) or an Intel chip
 
 ### Download Bitcoin Core client for your chip type
@@ -133,7 +133,7 @@ Now that you have installed Bitcoin Core it's time to run it. Follow these steps
 6.  At this point you should see a window similar to the one shown below:\
 
 
-    <figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 7. Initially you won't see a value for "Estimated time left until synced". It takes a few minutes, sometimes longer for this field to show a value. After some time, the application will show you how long it will take to sync.&#x20;
 8.  You need to keep your computer on during the initial sync. There is a free app called [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12), download the app, click through it's initial prompts and then set it to run "Indefinitely" while the node is syncing.\
 
@@ -148,10 +148,10 @@ Now that you have installed Bitcoin Core it's time to run it. Follow these steps
 11. Once the node is synced you will see the following window, do not create a wallet here.\
 
 
-    <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 
-12. The next step is setting up the ord client. I am linking to a recent guide here, and will be updating with specific feedback over the next few days.
+12. The next step is setting up the Ord client, but before you set that up, you need to setup a few tools. Scroll down and click on the button to go to the next part of the guide. [Install Required Tools](install-required-tools-homebrew-oh-my-zsh-visual-studio-rust-transmission.md).
 
 ## X account follow and shoutout
 

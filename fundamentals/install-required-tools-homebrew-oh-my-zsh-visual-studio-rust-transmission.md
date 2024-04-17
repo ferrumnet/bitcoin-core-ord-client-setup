@@ -58,7 +58,7 @@ At the end of the install process there will be some commands provided by the in
 
 7. Once the install process is finished, you will see the following screen and the next commands you need to enter are provided as shown in the screenshot below, copy these commands and enter them
 
-<figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption><p>Copy commands, paste and hit enter</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption><p>Once you enter, you will see a black line on Terminal, no confirmation is provided</p></figcaption></figure>
 
@@ -154,16 +154,16 @@ brew install rust
 1. Go to [https://transmissionbt.com/download](https://transmissionbt.com/download)
 2. Download Transmission, we will use this to download a pre-built Ord index to save time
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. A Transmission dmg file will be added to your downloads folder
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 4.  This will open a pop up window. You need to take a few steps here as shown in the image below\
 
 
-    <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 5. Woohoo! You've got Transmission setup too! That's it for now, you will use Transmission while setting up the Ord Client. Next step is to [setup the Ord Client](setup-ord-client-on-mac.md).

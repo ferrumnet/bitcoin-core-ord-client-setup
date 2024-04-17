@@ -58,34 +58,35 @@ To check if your Bitcoin Directory is correct or if you need to update it, see t
 
 ## Update SSD name to standardized name so all commands work
 
-1. Update SSD name to "Bitcoin" if it is not already named SSD.&#x20;
-2. Connect the SSD External Drive to your Mac
-3. Open `Disk Utility` by searching in spotlight search
-4.  If needed, update view to show all devices as shown in the screenshot below\
+1. Update SSD name to "Bitcoin" if it is not already named Bitcoin.&#x20;
+2. [Safely quit Bitcoin Core and Ord Server (if running)](../fundamentals/setup-ord-client-on-mac.md#safely-close-ord-client)
+3. Connect the SSD External Drive to your Mac
+4. Open `Disk Utility` by searching in spotlight search
+5.  If needed, update view to show all devices as shown in the screenshot below\
 
 
-    <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
-5.  Right click on your SSD and click Rename\
+    <figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+6.  Right click on your SSD and click Rename\
 
 
     <figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
-6.  After you click rename, the name field will become editable as shown below. Rename this SSD to `Bitcoin` and then hit enter\
+7.  After you click rename, the name field will become editable as shown below. Rename this SSD to `Bitcoin` and then hit enter\
 
 
     <figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
-7. Go to Finder and there, you need to Eject the newly named "Bitcoin" drive safely
-8.  Eject your drive safely as shown in the screen shot (NOTE: your drive will say "Bitcoin" as the name now)\
+8. Go to Finder and there, you need to Eject the newly named "Bitcoin" drive safely
+9.  Eject your drive safely as shown in the screen shot (NOTE: your drive will say "Bitcoin" as the name now)\
 
 
     <figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
-9. Open Bitcoin Core (QT) - While your SSD is disconnected
-10. You will see a pop-up as shown below, here select `Use a custom data directory`, then navigate to and select your External SSD named "Bitcoin" drive as shown in the image below\
+10. Open Bitcoin Core (QT) - While your SSD is disconnected
+11. You will see a pop-up as shown below, here select `Use a custom data directory`, then navigate to and select your External SSD named "Bitcoin" drive as shown in the image below\
 
 
     <figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
-11. After 30 seconds to a minute, click `OK` your node should start to sync.&#x20;
-12. Bitcoin Core (QT) will now sync with the new directory
-13. Now you can run the command to index the node
+12. After 30 seconds to a minute, click `OK` your node should start to sync.&#x20;
+13. Bitcoin Core (QT) will now sync with the new directory
+14. Now you can run the command to index the node
 
 {% code overflow="wrap" %}
 ```bash

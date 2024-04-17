@@ -170,6 +170,10 @@ Do not exit terminal, it is moving the index.redb file which is over 70 GB from 
 
 ## Start indexing Ord
 
+{% hint style="warning" %}
+Do not proceed with this step if your bitcoin node is not synced as shown in step 1 below.
+{% endhint %}
+
 1. Make sure Bitcoin Core (QT) applicaiton is running and synced as shown below
 
 <figure><img src="../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
@@ -207,14 +211,45 @@ It is highly likely that your directories are not setup in order to work with th
 
 6. Once indexing completes you will see the bar go away, and terminal should be in a similar state to the screenshot shown below. This means you are ready to [start the Ord server](setup-ord-client-on-mac.md#start-ord-server)! :rocket:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/pizza.gif" alt=""><figcaption></figcaption></figure>
+
+## Backup your Ord Index (daily if possible)
+
+1.  Do not run this command if your Ord client is indexing as shown below\
+
+
+    <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+2. If you have started Ord server, make sure to [safely quit the server](setup-ord-client-on-mac.md#safely-close-ord-client)
+3. Make sure that Bitcoin Core is not running, you can quit it safely by clicking on the Bitcoin Core (QT) application window and pressing `CMD+Q`.
+4. Then open terminal and run the following command
+
+{% code overflow="wrap" %}
+```bash
+rsync -ah --progress /Volumes/Bitcoin/Ord/index.redb /Volumes/Bitcoin/Ord/index.redb.backup
+open /Volumes/Bitcoin/Ord/
+```
+{% endcode %}
+
+5. This will begin the process of copying the `index.rdb` file to a new file named `index.redb.backup`. The proces can take some time, during it's progress you will see the following screen on terminal
+
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+5. Wait for this to complete. Once complete, the Ord folder in your SSD will open, and you will see two files, `index.redb` and `index.redb.backup` both with the same size as shown below
+
+{% hint style="info" %}
+If you have an index.redb.backup file before from a previous backup, the command will overwrite this file with the backup, this is expected behavior.
+{% endhint %}
+
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/pizza.gif" alt=""><figcaption></figcaption></figure>
 
 ## Start Ord Server
 
 {% hint style="warning" %}
-I recommend you wait for this part, until I add the official update here shortly, however, if you wish to proceed, I am providing the commands for you to do so.
+Once this process starts, do not quit your terminal with `CMD+Q`. If you want to safely exit, you must first press `CTRL+C`, you will see a notice that Ord is safely shutting down, when it is shut down, you will see a new terminal line with `~`. Anytime you see the last line starting with `~` it means the previous command is finished running. At this point, you can quit Terminal first, then quit Bitcoin core.
 {% endhint %}
 
 1. Once your indexing is complete in the previous section, you can enter the following command in terminal
@@ -237,10 +272,30 @@ http://localhost
 
 <figure><img src="../.gitbook/assets/image (67).png" alt=""><figcaption></figcaption></figure>
 
-3.  Woohoo! You did it! :pizza:You have installed Bitcoin Core, and you have installed and indexed Ord. Both of these setups are working as expected. If you want to stop the Ord server, you need to go to terminal and press `CTRL+C` on your keyboard. Then, you can shutdown `Bitcoin Core (QT)` application.\
+3. Woohoo! You did it! :pizza:You have installed Bitcoin Core, and you have installed and indexed Ord. Both of these setups are working as expected.&#x20;
 
+{% hint style="danger" %}
+Do not quit terminal once Ord server is running, it will corrupt the DB, and force you to re-sync. You must safely close Ord client once it's running. Do not close Bitcoin Core before safely closing Ord. See the Safely close Ord section to see how to shutdown safely.
+{% endhint %}
 
-    <figure><img src="../.gitbook/assets/pizza.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/pizza.gif" alt=""><figcaption></figcaption></figure>
+
+## Safely close Ord Client
+
+{% hint style="warning" %}
+These steps must be followed in the order listed below to avoid data corruption. Once you have started the Ord server, do not quit your terminal with `CMD+Q`.&#x20;
+{% endhint %}
+
+1. Go to terminal where Ord client is running and press `CTRL+C`&#x20;
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="danger" %}
+DO NOT PRESS `CTRL+C` again when you see the above notice. Wait for it to shut down.
+{% endhint %}
+
+2. You will see a notice that Ord is shutting down gracefully, when it is shut down, you will see a new terminal line with `~`. Anytime you see the last line starting with `~` it means the previous command is finished running.&#x20;
+3. At this point, you can quit Terminal first with `CMD+Q`, then quit Bitcoin core.
 
 ## X account follow and shoutout
 
