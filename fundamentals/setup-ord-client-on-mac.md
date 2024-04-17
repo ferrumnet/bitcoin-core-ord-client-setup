@@ -132,29 +132,30 @@ Now we will download the pre-built index to save us time. The pre-built Ord inde
 
 ## Setup our Ord directory
 
-1. Connect the SSD External Drive to your Mac
-2. Press `cmd+space` on your keyboard, this will open a search bar (spotlight search)
-3.  Type `terminal` and open the terminal app as shown below\
+1. Make sure you are not running Bitcoin Core before running the follow commands. To close Bitcoin Core (QT) if it is running, click on the app window for Bitcoin Core (QT) and press `CMD+Q`
+2. Connect the SSD External Drive to your Mac
+3. Press `cmd+space` on your keyboard, this will open a search bar (spotlight search)
+4.  Type `terminal` and open the terminal app as shown below\
 
 
     <figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
-4. Now copy and paste the following command, then press enter
+5. Now copy and paste the following command, then press enter
 
 {% code overflow="wrap" %}
 ```bash
 mkdir -p /Volumes/Bitcoin/Ord
-mv ~/Downloads/index.redb /Volumes/Bitcoin/Ord
+rsync -ah --progress ~/Downloads/index.redb /Volumes/Bitcoin/Ord/
 open /Volumes/Bitcoin/Ord
 ```
 {% endcode %}
 
 {% hint style="info" %}
-The commands above will create an "Ord" folder inside your SSD (which is named Bitcoin) and it will move the index.redb file from your downloads folder to this nealy created Ord folder in the SSD. This process can take some time, in some cases over 10 minutes. Do not close the terminal or interfare withit after running the command.
+The commands above will create an "Ord" folder inside your SSD (which is named Bitcoin) and it will move the index.redb file from your downloads folder to this nealy created Ord folder in the SSD. This process can take some time, in some cases over 10 minutes. Do not close the terminal or interfere with it after running the command.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
 
-
+<figure><img src="../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Do not exit terminal, it is moving the index.redb file which is over 70 GB from downloads on to your SSD. This can take some time, even up to 10 minutes plus. In the next screenshot I’ll show you what it looks like when the process is completed.
@@ -164,7 +165,7 @@ Do not exit terminal, it is moving the index.redb file which is over 70 GB from 
 
 <figure><img src="../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
 
-5. Wohoo! Now you have your `index.redb` in the right directory, and you've got a pre-built index, so we can proceed to the next step :pizza:, [Start indexing Ord](setup-ord-client-on-mac.md#start-indexing-ord).
+6. Wohoo! Now you have your `index.redb` in the right directory, and you've got a pre-built index, so we can proceed to the next step :pizza:, [Start indexing Ord](setup-ord-client-on-mac.md#start-indexing-ord).
 
 <figure><img src="../.gitbook/assets/pizza.gif" alt=""><figcaption></figcaption></figure>
 
