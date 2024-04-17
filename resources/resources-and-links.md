@@ -53,7 +53,7 @@ cat /Volumes/Bitcoin/Bitcoin/bitcoin.conf
 14. This should output a result as shown below\
 
 
-    <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 15. Woohoo! Time for Pizza! Your `bitcoin.conf` file is updated.
 
 ## Communities <a href="#communities" id="communities"></a>

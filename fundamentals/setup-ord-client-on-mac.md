@@ -220,7 +220,7 @@ It is highly likely that your directories are not setup in order to work with th
 1.  Do not run this command if your Ord client is indexing as shown below\
 
 
-    <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 2. If you have started Ord server, make sure to [safely quit the server](setup-ord-client-on-mac.md#safely-close-ord-client)
 3. Make sure that Bitcoin Core is not running, you can quit it safely by clicking on the Bitcoin Core (QT) application window and pressing `CMD+Q`.
 4. Then open terminal and run the following command
@@ -288,7 +288,7 @@ These steps must be followed in the order listed below to avoid data corruption.
 
 1. Go to terminal where Ord client is running and press `CTRL+C`&#x20;
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
 DO NOT PRESS `CTRL+C` again when you see the above notice. Wait for it to shut down.
