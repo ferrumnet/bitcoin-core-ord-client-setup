@@ -80,6 +80,8 @@ Now we'll set the config to signet, if you haven't already done so, and start Bi
 
 3. Now you have the Signet config, to open the Bitcoin Core app using signet, we need to do it from terminal. So open terminal and paste in the following command, then hit enter. This will open Bitcoin Core with a green icon and start syncing Signet as shown below
 
+### Command to start Bitcoin Core on signet
+
 ```bash
 /Applications/Bitcoin-Qt.app/Contents/MacOS/Bitcoin-Qt -signet
 ```
