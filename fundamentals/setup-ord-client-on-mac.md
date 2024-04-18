@@ -253,7 +253,8 @@ If you have an index.redb.backup file before from a previous backup, the command
 Once this process starts, do not quit your terminal with `CMD+Q`. If you want to safely exit, you must first press `CTRL+C`, you will see a notice that Ord is safely shutting down, when it is shut down, you will see a new terminal line with `~`. Anytime you see the last line starting with `~` it means the previous command is finished running. At this point, you can quit Terminal first, then quit Bitcoin core.
 {% endhint %}
 
-1. Once your indexing is complete in the previous section, you can enter the following command in terminal
+1. Start Bitcoin Core (QT) application if you don't have it running yet and wait for it to finish syncing
+2. Once your indexing is complete in the previous section, you can enter the following command in terminal
 
 {% code overflow="wrap" %}
 ```bash
