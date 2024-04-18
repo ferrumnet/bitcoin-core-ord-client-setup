@@ -20,7 +20,7 @@ open /Volumes/Bitcoin/resources/update_bitcoin_conf.sh
 
 This will open the `update_bitcoin_conf.sh` file on your screen as shown below
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 2. Now you need to copy and paste the following code in this new `update_bitcoin_conf.sh` file as shown below
 
@@ -45,7 +45,7 @@ fi
 
 ```
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. Now you have the script ready to toggle between mainnet and signet configs. :pizza:
 
@@ -76,7 +76,7 @@ Now we'll set the config to signet, if you haven't already done so, and start Bi
 /Volumes/Bitcoin/resources/update_bitcoin_conf.sh testnet
 ```
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. Now you have the Signet config, to open the Bitcoin Core app using signet, we need to do it from terminal. So open terminal and paste in the following command, then hit enter. This will open Bitcoin Core with a green icon and start syncing Signet as shown below
 
@@ -92,3 +92,23 @@ Now we'll set the config to signet, if you haven't already done so, and start Bi
 
 
 <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+## Start Ord Signet Sync
+
+1. There should be a window already running the Signet Bitcoin core. We need to open another window to start the Ord Signet sync. To do this, head over to the terminal window currently open, click anywhere in the black area of the terminal window, then on your keyboard press `CMD+N`. This will open a new window as shown.
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+2. Now you can start the indexing of Ord on Signet by copy and pasting the following command in terminal
+
+{% code overflow="wrap" %}
+```bash
+ord --signet --cookie-file /Volumes/Bitcoin/Bitcoin/signet/.cookie --data-dir /Volumes/Bitcoin/Ord --index-runes index run
+```
+{% endcode %}
+
+This will start the indexing Ord and Runes on Signet as shown below
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+3. This will go fast, once it's done, you will see a new line starting with `~`. This means Ord testnet is indexed. :pizza::ninja:
