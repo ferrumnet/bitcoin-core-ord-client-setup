@@ -70,7 +70,7 @@ brew --version
 
 <figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
 
-9. That's it, you have setup Homebrew! Congrats! Now let's install [Oh My Zsh](install-required-tools-homebrew-oh-my-zsh-visual-studio-rust-transmission.md#oh-my-zsh)
+9. That's it, you have setup Homebrew! Congrats! Now let's install [Oh My Zsh](install-required-tools-homebrew-oh-my-zsh-visual-studio-rust-transmission.md#install-oh-my-zsh)
 
 <figure><img src="../.gitbook/assets/pizza.gif" alt=""><figcaption></figcaption></figure>
 
