@@ -45,7 +45,7 @@ fi
 
 ```
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. Now you have the script ready to toggle between mainnet and signet configs. :pizza:
 
@@ -97,7 +97,7 @@ Now we'll set the config to signet, if you haven't already done so, and start Bi
 
 1. There should be a window already running the Signet Bitcoin core. We need to open another window to start the Ord Signet sync. To do this, head over to the terminal window currently open, click anywhere in the black area of the terminal window, then on your keyboard press `CMD+N`. This will open a new window as shown.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 2. Now you can start the indexing of Ord on Signet by copy and pasting the following command in terminal
 
@@ -109,6 +109,10 @@ ord --signet --cookie-file /Volumes/Bitcoin/Bitcoin/signet/.cookie --data-dir /V
 
 This will start the indexing Ord and Runes on Signet as shown below
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-3. This will go fast, once it's done, you will see a new line starting with `~`. This means Ord testnet is indexed. :pizza::ninja:
+3. If you see the following error, just type the command again and run it.
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+4. This will go fast, once it's done, you will see a new line starting with `~`. This means Ord testnet is indexed. :pizza::ninja:
