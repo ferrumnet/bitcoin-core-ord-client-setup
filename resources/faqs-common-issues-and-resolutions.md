@@ -1,5 +1,17 @@
 # ⁉️ FAQs - Common Issues and Resolutions
 
+## Entering commands into terminal does nothing
+
+### The error
+
+If you are entering commands into terminal and nothing is happening, then you are likely entering commands in  a terminal window (session) that has something running and is not ready to take commands as shown below.
+
+<figure><img src="../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure>
+
+### The solution
+
+In the example picture above, the ord server is running. As a general rule, if the terminal window doesn't have `~` as the first character on a new line, it means it is busy or dedicated to running a process such as the ord server in the example above. In such cases, you need to click on this terminal window, then press `CMD+N` to open a new terminal window. Then you can enter your command, as this new terminal window will have `~` as the first character on a new line ready to accept commands.
+
 ## Ord Index Error | Code -5 message No such mempool transaction
 
 ### The error
