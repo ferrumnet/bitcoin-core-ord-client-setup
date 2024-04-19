@@ -18,5 +18,6 @@
 ## Resources
 
 * [⁉️ FAQs - Common Issues and Resolutions](resources/faqs-common-issues-and-resolutions.md)
+* [📝 Quick Commands for Runes by Taha Abbasi](resources/quick-commands-for-runes-by-taha-abbasi.md)
 * [🗃️ Resources and links](resources/resources-and-links.md)
 * [📣 Donation and X shout out](resources/donation-and-x-shout-out.md)
